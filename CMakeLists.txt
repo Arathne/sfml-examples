@@ -10,6 +10,7 @@ set( CMAKE_CXX_STANDARD_REQUIRED ON )
 set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/examples )
 
 find_package( OpenGL REQUIRED )
-find_package( SFML 2.5 COMPONENTS graphics audio REQUIRED )
+find_package( SFML 2.5 COMPONENTS graphics system REQUIRED )
 
 add_subdirectory( window )
+add_subdirectory( clock )

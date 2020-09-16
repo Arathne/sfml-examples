@@ -14,3 +14,4 @@ find_package( SFML 2.5 COMPONENTS graphics system REQUIRED )
 
 add_subdirectory( window )
 add_subdirectory( clock )
+add_subdirectory( sprite )
